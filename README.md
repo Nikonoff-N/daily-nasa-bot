@@ -8,10 +8,6 @@
 5. Упаковку в Docker контейнер
 ### Использование
 1. Установите docker
-2. Создайте файл .env и пропиште в нем ключи окружения со своими токенами
-```
-token=your-own-token
-superuser=your-chat-id
-nasakey=DEMO_KEY
-```
-3. Выполните ```docker compose up```
+2. Клонируйте репозитарий
+3. Задайте свои токены в файле .env
+4. Выполните ```docker compose up```
