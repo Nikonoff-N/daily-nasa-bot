@@ -5,8 +5,6 @@ services:
     build: .
     command: python bot.py
     volumes:
-      - ./data/
-    ports:
-      - 8000:8000
+      - .:/app/
     env_file:
       - ./.env
