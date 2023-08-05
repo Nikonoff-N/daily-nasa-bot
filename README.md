@@ -7,3 +7,11 @@
 4. Выполнение регулярных задач через APSScheduler
 5. Упаковку в Docker контейнер
 ### Использование
+1. Установите docker
+2. Создайте файл .env и пропиште в нем ключи окружения со своими токенами
+```
+token=your-own-token
+superuser=your-chat-id
+nasakey=DEMO_KEY
+```
+3. Выполните ```docker compose up```
